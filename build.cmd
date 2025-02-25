@@ -1,0 +1,1 @@
+pyinstaller --onefile --windowed --debug=all --add-data "logo.png;." --add-data "favicon.ico;." --icon "logo.png" --name "IntelliJ-SDK-Helper" main.py
